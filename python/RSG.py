@@ -3,7 +3,7 @@ import warnings
 
 import numpy as np
 from numpy import linalg as LA
-from sklearn.preprocessing import normalize
+from scipy.linalg import orth
 
 
 class RiemannianSubGradient:
@@ -188,13 +188,13 @@ class RiemannianSubGradient:
             grad_norm_square = LA.norm(grad) ** 2
 
             # modified line search
-            B_next = normalize(B - mu * grad, axis=0)
+            B_next = orth(B - mu * grad)
             while (
                 loss(B_next) > old_loss - self.alpha * mu * grad_norm_square
                 and mu > self.mu_min
             ):
                 mu *= self.beta
-                B_next = normalize(B - mu * grad, axis=0)
+                B_next = orth(B - mu * grad)
             B = B_next
             old_loss = loss(B)
 
