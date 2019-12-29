@@ -3,7 +3,8 @@ function parms = parms_rsg
 % 
 %          RSG.m  and  RSG_sphere.m  for the implementation
 % 
-% PARAMETERS:
+% PARAMETERS
+% ----------
 %
 %   mu_0 : initial value of step size
 %
