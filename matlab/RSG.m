@@ -36,13 +36,13 @@ function [B, loss_val, elapsed_time, iter] = RSG(X, parms)
 %     B : matrix with shape [n_features, n_dual_directions]
 %         computed optimization variable
 % 
-%     loss_val: scalar (float)
+%     loss_val : scalar (float)
 %         final objective value
 % 
-%     iter: scalar (int)
+%     iter : scalar (int)
 %         number of iterations performed
 % 
-%     elapsed_time: scalar (float)
+%     elapsed_time : scalar (float)
 %         elapsed time (in seconds) for running the algorithm
 % 
 

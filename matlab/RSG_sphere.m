@@ -32,13 +32,13 @@ function [b, loss_val, elapsed_time, iter] = RSG_sphere(X, parms)
 %     b : vector with shape [n_features, 1]
 %         computed optimization variable
 % 
-%     loss_val: scalar (float)
+%     loss_val : scalar (float)
 %         final objective value
 % 
-%     iter: scalar (int)
+%     iter : scalar (int)
 %         number of iterations performed
 % 
-%     elapsed_time: scalar (float)
+%     elapsed_time : scalar (float)
 %         elapsed time (in seconds) for running the algorithm
 % 
 
