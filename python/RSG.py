@@ -82,6 +82,8 @@ class RiemannianSubGradient:
     Examples
     --------
         See demo.py
+
+    Copyright (C) 2019 Tianyu Ding <tianyu.ding0@gmail.com>
     """
 
     def __init__(

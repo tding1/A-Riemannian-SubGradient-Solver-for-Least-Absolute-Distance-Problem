@@ -35,6 +35,8 @@
   *
   *  Please refer to the paper for details, and kindly cite our work 
   *  if you find it is useful.
+  *
+  *  Copyright (C) 2019 Tianyu Ding <tianyu.ding0@gmail.com>
   * 
   */
 #ifndef RSG_H
