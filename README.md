@@ -1,6 +1,6 @@
 # A-Riemannian-SubGradient-Solver-for-Least-Absolute-Distance-Problem
 
-This repository contains implementations (c++/python/matlab) of a Riemannian SubGraident (RSG) solver proposed in the NeurIPS 2019 paper "[A Linearly Convergent Method for Non-Smooth Non-Convex Optimization on the Grassmannian with Applications to Robust Subspace and Dictionary Learning](https://papers.nips.cc/paper/9141-a-linearly-convergent-method-for-non-smooth-non-convex-optimization-on-the-grassmannian-with-applications-to-robust-subspace-and-dictionary-learning)" for solving the least absolute distance problem with the following formulation:
+This repository contains implementations (C++/Python/Matlab) of a Riemannian SubGraident (RSG) solver proposed in the NeurIPS 2019 paper "[A Linearly Convergent Method for Non-Smooth Non-Convex Optimization on the Grassmannian with Applications to Robust Subspace and Dictionary Learning](https://papers.nips.cc/paper/9141-a-linearly-convergent-method-for-non-smooth-non-convex-optimization-on-the-grassmannian-with-applications-to-robust-subspace-and-dictionary-learning)" for solving the least absolute distance problem with the following formulation:
 <img src="./images/prob1.png" align="center" width="900" height="80" />
 where **_X_** is the data matrix with shape _D_ x _L_, and **_B_** is the variable whose columns are constrained to be orthonormal and ideally lie in a dual space which is orthogonal to the subspace spaned by the samples (columns of **_X_**).
 In above formulations, we denote
