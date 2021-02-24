@@ -45,7 +45,7 @@ The code has been tested with MATLAB_R2018b. For testing, open Matlab, change th
 For interested users, we also include the code for synthetic experiments used in the paper, e.g., how do the various parameters affect the performance of the algorithm. See `./synthetic_experiments` for details.
 
 
-## Acknowledgements
+## Citation
 If you find the code or results useful, please cite the following paper:
 ```
 @inproceedings{Zhu2019ALC,
