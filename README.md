@@ -49,10 +49,10 @@ For interested users, we also include the code for synthetic experiments used in
 If you find the code or results useful, please cite the following paper:
 ```
 @inproceedings{zhu2019linearly,
-	title={A linearly convergent method for non-smooth non-convex optimization on the grassmannian with applications to robust subspace and dictionary learning},
-	author={Zhu, Zhihui and Ding, Tianyu and Robinson, Daniel and Tsakiris, Manolis and Vidal, Ren{\'e}},
-	booktitle={Advances in Neural Information Processing Systems},
-	pages={9437--9447},
-	year={2019}
+    title={A linearly convergent method for non-smooth non-convex optimization on the grassmannian with applications to robust subspace and dictionary learning},
+    author={Zhu, Zhihui and Ding, Tianyu and Robinson, Daniel and Tsakiris, Manolis and Vidal, Ren{\'e}},
+    booktitle={Advances in Neural Information Processing Systems},
+    pages={9437--9447},
+    year={2019}
 }
 ```
